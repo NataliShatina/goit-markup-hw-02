@@ -15,6 +15,7 @@ a {
 }
 
 .header-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -62,6 +63,7 @@ a {
   color: #f4f4fd;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -72,7 +74,7 @@ a {
 .footer-logo .footer-part {
   color: #f4f4fd;
 }
-.banner-h1 {
+.banner-h {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -82,7 +84,6 @@ a {
 }
 .banner-button {
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -92,7 +93,6 @@ a {
 }
 .banner-button:hover,
 .banner-button:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 .name {
@@ -108,6 +108,7 @@ a {
   color: #2e2f42;
 }
 .names {
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -119,4 +120,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.foto-fon {
+  background: #fff;
 }
